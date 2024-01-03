@@ -122,6 +122,20 @@ hr {
     font-size: 150%;
 }
 
+.PPageTable{
+    color: var(--body-text-col);
+    background-color: var(--projects-col);
+    font-size: 150%;
+    table-layout: fixed;
+}
+
+.lcol{
+    text-align: right;
+}
+.rcol{
+    text-align: left;
+}
+
 .centerImage{
     display: block;
     margin-left: auto;
