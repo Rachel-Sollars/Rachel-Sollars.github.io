@@ -132,3 +132,7 @@ hr {
     color: var(--body-text-col);
     text-align: center;
 }
+
+.contact{
+    text-align: center;
+}
