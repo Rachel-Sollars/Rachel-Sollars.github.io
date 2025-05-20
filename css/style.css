@@ -1,12 +1,12 @@
 :root{
     /* Theme */
-    --bg-col: #0a0a13;
-    --title-col: #21203a;
-    --about-col:  #0a0a13;
-    --projects-col: #0a0a13;
-    --title-text-col: rgb(56, 212, 147);
-    --body-text-col: rgb(169, 255, 188);
-    --title-alt-col: rgb(133, 155, 146);
+    --bg-col: #FFFDEC;
+    --title-col: #86A788;
+    --about-col:  #FFFDEC;
+    --projects-col: #FFFDEC;
+    --title-text-col: #FFCFCF;
+    --body-text-col: #86A788;
+    --title-alt-col: #FFCFCF;
 }
 
 body{
@@ -24,12 +24,14 @@ body{
 .portfolioLayout{
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 5%;
+    margin-top: 1%;
 
     color: var(--body-text-col);
     background-color: var(--about-col);
 
-    font-size: 150%;
+    font-size: 2vw;
+
+    table-layout: fixed;
 }
 
 .portfolioHeader{
@@ -59,7 +61,7 @@ body{
 
 .NavBarContents{
     text-align: left;
-    color: var(--body-text-col);
+    color: var(--title-text-col);
     font-size: 150%;
 }
 
@@ -92,7 +94,7 @@ ul{
 
 .titletext {
     font-size: 250%;
-    color: var(--body-text-col);
+    color: var(--title-text-col);
  }
 
 .title{
